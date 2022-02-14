@@ -1,0 +1,8 @@
+[submodule "terraform-vault-okta"]
+	path = terraform-vault-okta
+	url = https://github.com/GuyBarros/vault-okta-demo
+	branch = main
+[submodule "terraform-vault-gitlab"]
+	path = terraform-vault-gitlab
+	url = https://github.com/GuyBarros/terraform_vault_gitlab_auth
+	branch = main
