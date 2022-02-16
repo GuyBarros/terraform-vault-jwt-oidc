@@ -6,3 +6,7 @@
 	path = terraform-vault-gitlab
 	url = https://github.com/GuyBarros/terraform_vault_gitlab_auth
 	branch = main
+[submodule "terraform-vault-github"]
+	path = terraform-vault-github
+	url = https://github.com/GuyBarros/terraform_vault_github_auth
+	branch = main
