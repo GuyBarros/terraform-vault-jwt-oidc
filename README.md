@@ -96,6 +96,9 @@ User Claim is what defines a Vault Client (Entity) in some scenarios it might be
 ```
 
 ##### Bound Audiences or Bound Claims
+the bound claims/ bound audiences is where the specificities of the authentication are configured. TL:DR this is where you say what metadata this access must have to be valid.
+
+
  ```ruby
     bound_claims = {
         project_id = data.gitlab_project.vault.id
