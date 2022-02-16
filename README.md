@@ -1,6 +1,7 @@
 # terraform-vault-jwt-oidc
 
-Hashicorp Vault has the flexibility to use more than one Authentication Method, one of the options
+Hashicorp Vault has the flexibility to use more than one Authentication Method, one of the options is JWT. this repo contains a series of examples to help automate automate their config.
+
 
 
 ## why JWT/OIDC
@@ -96,7 +97,7 @@ User Claim is what defines a Vault Client (Entity) in some scenarios it might be
 ```
 
 ##### Bound Audiences or Bound Claims
-the bound claims/ bound audiences is where the specificities of the authentication are configured. TL:DR this is where you say what metadata this access must have to be valid.
+Bound claims/ bound audiences is where the specificities of the authentication are configured. TL:DR this is where you say what metadata this access must have to be valid.
 
 
  ```ruby
